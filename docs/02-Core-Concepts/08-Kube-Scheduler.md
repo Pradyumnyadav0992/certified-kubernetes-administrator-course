@@ -9,6 +9,7 @@ In this section, we will take a look at kube-scheduler.
   ![kube-scheduler1](../../images/kube-scheduler1.PNG)
   
 #### Why do you need a Scheduler?
+  Schedular first remove the node that are minimum requirement and then it rank the rest of the node and by check resource left after adding the container .Then kubelet add the container not scheduler.
 
   ![kube-scheduler2](../../images/kube-scheduler2.PNG)
     
