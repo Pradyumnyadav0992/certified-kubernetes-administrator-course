@@ -8,14 +8,18 @@ In this section, we will take a look at the below
 #### Controllers are brain behind kubernetes
 
 ## What is a Replica and Why do we need a replication controller?
+1. High Availability: If a pod fails and it is a part of replica set then it will automotically get recreated.
+2. Load Balancing : If the load increase we can manually or automatically increae the no of pod .
 
   ![rc](../../images/rc.PNG)
   
   ![rc1](../../images/rc1.PNG)
-  
+
+## Replica set or replication controller can create the pod on other nodes as will .
 ## Difference between ReplicaSet and Replication Controller
 - **`Replication Controller`** is the older technology that is being replaced by a **`ReplicaSet`**.
 - **`ReplicaSet`** is the new way to setup replication.
+-   It has a selector column which select the already created pod and consider then as a part of replicaset.
 
 ## Creating a Replication Controller
 
