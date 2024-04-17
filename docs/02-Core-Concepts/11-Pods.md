@@ -23,6 +23,8 @@ In this section, we will take a look at PODS.
   ![pod3](../../images/pod3.PNG)
   
 ## Docker Example (Docker Link)
+
+A pod can have a multiple container but they should be different in type like say we have a application with 2 continer app and helper then if the app is not working then helper should be killed and then a new container for both need to be created so it is better to have a app and helper in the same so if any one fails new pod can be deployed.
   
   ![pod4](../../images/pod4.PNG)
   
