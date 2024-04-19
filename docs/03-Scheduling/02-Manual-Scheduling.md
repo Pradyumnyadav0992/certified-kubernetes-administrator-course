@@ -54,6 +54,9 @@ In this section, we will take a look at **`Manually Scheduling`** a **`POD`** on
        ports:
        - containerPort: 8080
     ```
+
+    Kubernetes won't allow you to modify the node name property of a pod, so another way to assign a node to an existing pod is to create a binding object and send a POST request to the pod's binding API, thus mimicking what the actual scheduler does. In the binding object, you specify a target node with the name of the node, then send a POST request to the pod's binding API with the data set to the binding object in a JSON format.
+
     ![sc3](../../images/sc3.PNG)
     
     
