@@ -79,6 +79,18 @@ In this section we will take a look at Resource Limits
 
   <img width="482" alt="image" src="https://github.com/Pradyumnyadav0992/certified-kubernetes-administrator-course/assets/94163028/361cd14a-e63b-4a7c-a618-4b76005d71d7">
 
+
+##Limit Range
+So limit ranges can help you define default values to be set for containers in pods that are created without a request or limit specified in the pod-definition files. This is applicable at the name space level. So remember that. And this is an object. So you create a definition file with the apiVersion set to v1, kind set to LimitRange, and we'll give it a name cpu-resource-constraint. We then set the default limit to 500m, defaultRequests to the same as well. We will also specify a max cpu as one and a minimum as 100m. So the max refers to the maximum limit that can be set on a container in a pod and minimum refers to the minimum request a container in a pod can make. So these are of course some example values, not a recommendation or anything. So you must set whatever is best for your applications. So the same goes for memory. Use memory instead of CPU and specify the defaults and max and main values in this form.
+
+<img width="466" alt="image" src="https://github.com/Pradyumnyadav0992/certified-kubernetes-administrator-course/assets/94163028/3d098baa-cf23-4377-abe2-53dbbd4cbbe1">
+
+##Resource Quota
+
+So a resource quota is a namespace level object
+<img width="461" alt="image" src="https://github.com/Pradyumnyadav0992/certified-kubernetes-administrator-course/assets/94163028/e922405b-4f0f-41db-a52f-638f7a32e2b3">
+
+
 #### K8s Reference Docs:
 - https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   
