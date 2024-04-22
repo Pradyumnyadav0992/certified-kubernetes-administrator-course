@@ -72,7 +72,10 @@ In this section we will take a look at Resource Limits
 - what happens when a pod tries to exceed resources beyond its limits?
 
    ![el](../../images/el.PNG)
-   
+
+
+   ![Uploading image.png…]()
+
   
 #### K8s Reference Docs:
 - https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
