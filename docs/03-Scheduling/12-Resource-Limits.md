@@ -74,7 +74,8 @@ In this section we will take a look at Resource Limits
    ![el](../../images/el.PNG)
 
 
-   ![Uploading image.png…]()
+   <img width="482" alt="image" src="https://github.com/Pradyumnyadav0992/certified-kubernetes-administrator-course/assets/94163028/4ab58ffc-3ba0-417e-9b90-91ee49cf1e54">
+
 
   
 #### K8s Reference Docs:
