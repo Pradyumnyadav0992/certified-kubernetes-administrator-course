@@ -77,7 +77,8 @@ In this section we will take a look at Resource Limits
    <img width="482" alt="image" src="https://github.com/Pradyumnyadav0992/certified-kubernetes-administrator-course/assets/94163028/4ab58ffc-3ba0-417e-9b90-91ee49cf1e54">
 
 
-  
+  <img width="482" alt="image" src="https://github.com/Pradyumnyadav0992/certified-kubernetes-administrator-course/assets/94163028/361cd14a-e63b-4a7c-a618-4b76005d71d7">
+
 #### K8s Reference Docs:
 - https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   
