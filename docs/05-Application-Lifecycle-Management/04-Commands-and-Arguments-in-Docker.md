@@ -47,7 +47,13 @@ In this section, we will take a look at commands and arguments in docker
   ```
   
   ![sleep2](../../images/sleep2.PNG)
-  
+
+  <img width="537" alt="image" src="https://github.com/Pradyumnyadav0992/certified-kubernetes-administrator-course/assets/94163028/249e97d9-06bb-4302-87bc-d1d73b17fae0">
+**Entry point is the main command and CMD is appened to it .
+If you write like  docker run ubuntu-sleeper 10 then 10 will over write 5 .**
+
+We can overwrite the enty point also using --entrypoint.
+
 ## Entrypoint Instruction
 - The entrypoint instruction is like the command instruction as in you can specify the program that will be run when the container starts and whatever you specify on the command line.
 
