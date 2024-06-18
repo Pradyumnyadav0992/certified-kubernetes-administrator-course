@@ -74,7 +74,9 @@ In this section, we will take a look at configuring configmaps in applications
    ```
    $ kubectl create -f pod-definition.yaml
    ```
-  
+**This can also be used **
+<img width="293" alt="image" src="https://github.com/Pradyumnyadav0992/certified-kubernetes-administrator-course/assets/94163028/6fa50a1e-28d1-4def-91f3-457263f2490b">
+
    ![cmp](../../images/cmp.PNG)
    
  #### There are other ways to inject configuration variables into pod   
